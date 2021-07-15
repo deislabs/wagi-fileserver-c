@@ -1,0 +1,10 @@
+# Fact: Hippos are the third-largest type of land mammal
+[bindle]
+name = "fileserver-c"
+version = "0.1.0"
+description = "Provides static file serving for Wagi"
+
+[[handler]]
+route = "/..."
+name = "fileserver.wasm"
+files = ["README.md", "LICENSE"]
